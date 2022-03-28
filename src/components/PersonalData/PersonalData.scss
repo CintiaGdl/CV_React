@@ -17,7 +17,7 @@
     width: 150px;
     margin: 20px;
     border-radius: 20px;
-    border: solid rgb(252, 163, 17);
+    border: solid 8px rgb(252, 163, 17);
   }
   h2 {
     color: black;
@@ -30,9 +30,7 @@
   .image {
     display: flex;
   }
-h1 {
-  color: #0b0089;
-}
+
 .dataImg {
   display: flex;
   flex-direction: column;

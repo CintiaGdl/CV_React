@@ -4,13 +4,6 @@ import "./PersonalData.scss";
 const PersonalData = ({ data }) => {
   return (
     <div className="data">
-      <div className="image">
-        <img src={data.image} alt="" />
-        <div className="dataImg">
-          <h1>Welcome to my CV</h1>
-          <h1>{data.name}</h1>
-        </div>
-      </div>
       <div className="card">
         <p>Where I am?  {data.adress}</p>
         <p>{data.city} </p>

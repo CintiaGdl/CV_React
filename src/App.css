@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
 body {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: rgb(229, 229, 229);
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #14213d;
+}
+h1, .h1 {
+  color: rgb(252, 163, 17);
 }
 
 .sectionCard {
@@ -11,6 +29,7 @@ body {
   background-color: #a3b6e1;
   border: 3px solid #14213d;
   border-radius: 10px;
+  width: 90%;
 }
 
 .sectionCard2 {
@@ -22,6 +41,7 @@ body {
   background-color: #a3b6e1;
   border: 3px solid #14213d;
   border-radius: 10px;
+  width: 90%;
 }
 
 .languages {
@@ -33,4 +53,27 @@ body {
 .app {
 display: flex;
 flex-direction: row;
+}
+.buttonChange {
+  background-color: rgb(252, 163, 17);
+  border-radius: 9px;
+  border: solid;
+  font-size: large;
+}
+.cardButton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background-color: #14213d;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
 }
