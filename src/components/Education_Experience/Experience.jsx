@@ -2,11 +2,11 @@ import React from "react"
 
 export default function Experience({ experience }) {
     return (
-      <div className='experienceCard'>
+      <div className='sectionCard'>
           {experience.map((item) => {
               return (
                   <div key={JSON.stringify(item)}>
-                      <p className='name'>{item.name}</p>
+                      <h3 className='name'>{item.name}</h3>
                       <p>{item.date}</p>
                       <p>{item.where}</p>
                       <p>{item.description}</p>

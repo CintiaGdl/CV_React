@@ -6,7 +6,6 @@ export default function Habilities({ habilities }) {
         {habilities.map((item) => {
             return(
                 <div key={JSON.stringify(item)}>
-                    <p>Habilities:</p>
                         <ul>
                             <li>{item}</li>
                         </ul>
